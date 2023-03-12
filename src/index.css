@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,
+    
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#carousel{
+  max-height: 500px;
+  
+}
+#logo{
+  width: 210px;
+}
+#navstyle{
+  color: red !important;
+}
+
+.navbar navbar-expand-lg navbar-dark bg-success{
+  color: red !important;
+  background-color:aqua !important;
+
+}
+div#root{
+  background-color: #151111;
+}
+
+button.btn.btn-success.justify-center.ms-2{
+  background-color: #ff0404;
+    border-color: #ff0404a6;
+    text-emphasis-color: bold !important;
+    color: #fff !important;
+    text:bold !important;
+    
+}
+button.btn.btn-outline-success.text-white{
+  border-color: #ffffff;
+}
+
+select.m-2.h-100.w-20.bg-success.text-black.rounded{
+  background: #ff0404 !important;
+  border-color: #ff0404a6;
+  text-emphasis-color: bold !important;
+  color: #fff !important;
+  text:bold;
+  
+}
+span.mb-3.mb-md-0.text-muted{
+  text-align: center;
+}
+footer.d-flex.flex-wrap.justify-content-between.align-items-center.py-8.my-4.border-top{
+  text-align: center !important;
+}
+a.nav-link.fs-5{
+  color: rgb(239 239 239) !important;
+}
+
+button.btn.bg-success.mt-5{
+  color: white !important;
+  background-color:#BC2f2f !important;
+}
+th{
+  color: #BC2f2f !important;
+}
