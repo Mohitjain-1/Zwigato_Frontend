@@ -32,6 +32,12 @@ export default function NavBar() {
             <Link className="nav-link fs-5" to="/">
               Home
             </Link>
+            <Link className="nav-link fs-5" to="/about">
+              About
+            </Link>
+            <Link className="nav-link fs-5" to="/services">
+              Services
+            </Link>
             {localStorage.getItem('authToken') && (
               <Link className="nav-link fs-5" to="/myOrder">
                 My Orders

@@ -34,6 +34,7 @@ export default function Card(props) {
     for (const item of data) {
       if (item.id === props.foodItem._id) {
         food = item;
+        alert("added")
 
         break;
       }
